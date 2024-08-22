@@ -1,0 +1,29 @@
+[
+  {
+    "include": ["~/.config/waybar/default-modules.jsonc"],
+    "layer": "top",
+    "position": "top",
+    "output": "HDMI-A-1",
+    "margin-top": 0,
+    "margin-left": 0,
+    "margin-right": 0,
+    "modules-center": [
+      "clock",
+      "custom/weather"
+    ],
+    "modules-left": [
+      "custom/wlogout",
+      "wlr/workspaces",
+      "custom/separator-left",
+      "hyprland/window"
+    ],
+    "modules-right": [
+      "tray",
+      "custom/separator-right",
+      "group/stats",
+      "custom/separator-right",
+      "group/notifications",
+      "hyprland/submap"
+    ]
+  }
+]
